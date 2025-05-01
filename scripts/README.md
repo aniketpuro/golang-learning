@@ -32,42 +32,37 @@ Follow these instructions to set up and run the Real-Time Performance Monitoring
 
 ### 📁 Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/golang-learning.git
-📂 Navigate to the Scripts Folder
-bash
-Copy
-Edit
+### 📂 Navigate to the Scripts Folder
+```bash
 cd golang-learning/scripts
-🧱 Initialize Go Module
-bash
-Copy
-Edit
+```
+
+### 🧱 Initialize Go Module
+```bash
 go mod init
 go mod tidy
-📥 Install Dependencies
-bash
-Copy
-Edit
+```
+### 📥 Install Dependencies
+```bash
 go get github.com/shirou/gopsutil/cpu
 go get github.com/shirou/gopsutil/mem
 go get github.com/shirou/gopsutil/disk
 go get github.com/shirou/gopsutil/net
-▶️ Run the Script
-bash
-Copy
-Edit
+```
+### ▶️ Run the Script
+``` bash
 go run Real-Time\ Performance\ Monitoring.go
-💡 Sample Output
-yaml
-Copy
-Edit
+```
+### 💡 Sample Output
+```yaml
 CPU Usage: 15.3%
 Memory Usage: 70%
 Disk Usage: 25%
 Network Usage: 5.6MB/s
-🤝 Contributing
-Feel free to fork the repo, raise issues, or submit pull requests for improvements or new features.
+```
+### 🤝 Contributing
+- Feel free to fork the repo, raise issues, or submit pull requests for improvements or new features.
 
-📄 License
-This project is licensed under the MIT License.
+#### 📄 License
+- This project is licensed under the MIT License.
