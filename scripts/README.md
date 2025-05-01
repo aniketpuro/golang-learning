@@ -1,6 +1,3 @@
-Absolutely! Here's the same `README.md` content formatted properly in **Markdown**:
-
-```markdown
 # Real-Time Performance Monitoring in Go
 
 This repository contains a Go script that monitors and logs system performance metrics in real-time. The script uses the **gopsutil** library to extract critical system information such as CPU usage, memory usage, disk usage, and network usage, making it suitable for observing the performance of servers, virtual machines, containers, and other systems.
@@ -37,54 +34,40 @@ Follow these instructions to set up and run the Real-Time Performance Monitoring
 
 ```bash
 git clone https://github.com/yourusername/golang-learning.git
-```
-
-### 📂 Navigate to the Scripts Folder
-
-```bash
+📂 Navigate to the Scripts Folder
+bash
+Copy
+Edit
 cd golang-learning/scripts
-```
-
-### 🧱 Initialize Go Module
-
-```bash
+🧱 Initialize Go Module
+bash
+Copy
+Edit
 go mod init
 go mod tidy
-```
-
-### 📥 Install Dependencies
-
-```bash
+📥 Install Dependencies
+bash
+Copy
+Edit
 go get github.com/shirou/gopsutil/cpu
 go get github.com/shirou/gopsutil/mem
 go get github.com/shirou/gopsutil/disk
 go get github.com/shirou/gopsutil/net
-```
-
-### ▶️ Run the Script
-
-```bash
+▶️ Run the Script
+bash
+Copy
+Edit
 go run Real-Time\ Performance\ Monitoring.go
-```
-
-### 💡 Sample Output
-
-```
+💡 Sample Output
+yaml
+Copy
+Edit
 CPU Usage: 15.3%
 Memory Usage: 70%
 Disk Usage: 25%
 Network Usage: 5.6MB/s
-```
-
-## 🤝 Contributing
-
+🤝 Contributing
 Feel free to fork the repo, raise issues, or submit pull requests for improvements or new features.
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
----
-
-Let me know if you'd like me to include badges, emojis, screenshots, or links to your LinkedIn or blog!
+📄 License
+This project is licensed under the MIT License.
